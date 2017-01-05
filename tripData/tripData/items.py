@@ -8,7 +8,11 @@
 import scrapy
 
 class TripdataItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-    title = scrapy.Field
+    '''
+    define the fields for your item here like:
+    name = scrapy.Field()
+    '''
+    headline = scrapy.Field()
+    date = scrapy.Field()
+    score = scrapy.Field()
+    comment = scrapy.Field()
